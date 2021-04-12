@@ -14,6 +14,8 @@
 		145419E6261FE9C0000F4E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145419E5261FE9C0000F4E09 /* Assets.xcassets */; };
 		145419E9261FE9C0000F4E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145419E7261FE9C0000F4E09 /* LaunchScreen.storyboard */; };
 		145419EC261FE9C0000F4E09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 145419EB261FE9C0000F4E09 /* main.m */; };
+		14C1606A2623DDC900BAF9C8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C160692623DDC900BAF9C8 /* Person.m */; };
+		14C1606F2623E45500BAF9C8 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C1606E2623E45500BAF9C8 /* Vehicle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		145419E8261FE9C0000F4E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		145419EA261FE9C0000F4E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		145419EB261FE9C0000F4E09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14C160682623DDC900BAF9C8 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		14C160692623DDC900BAF9C8 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		14C1606D2623E45500BAF9C8 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		14C1606E2623E45500BAF9C8 /* Vehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 		145419D8261FE9BF000F4E09 /* RememberObjC */ = {
 			isa = PBXGroup;
 			children = (
+				14C160682623DDC900BAF9C8 /* Person.h */,
+				14C160692623DDC900BAF9C8 /* Person.m */,
+				14C1606D2623E45500BAF9C8 /* Vehicle.h */,
+				14C1606E2623E45500BAF9C8 /* Vehicle.m */,
 				145419D9261FE9BF000F4E09 /* AppDelegate.h */,
 				145419DA261FE9BF000F4E09 /* AppDelegate.m */,
 				145419DC261FE9BF000F4E09 /* SceneDelegate.h */,
@@ -147,6 +157,8 @@
 			files = (
 				145419E1261FE9BF000F4E09 /* ViewController.m in Sources */,
 				145419DB261FE9BF000F4E09 /* AppDelegate.m in Sources */,
+				14C1606F2623E45500BAF9C8 /* Vehicle.m in Sources */,
+				14C1606A2623DDC900BAF9C8 /* Person.m in Sources */,
 				145419EC261FE9C0000F4E09 /* main.m in Sources */,
 				145419DE261FE9BF000F4E09 /* SceneDelegate.m in Sources */,
 			);
